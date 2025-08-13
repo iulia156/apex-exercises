@@ -1,5 +1,5 @@
 public with sharing class HelloCustomer {
-    public HelloCustomer() {
-
+    public static String sayHello(String name) {
+        return 'Hello, ' + name + '! Welcome to Salesforce!';
     }
 }
